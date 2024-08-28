@@ -203,6 +203,12 @@
     border: 15px solid var(--bs-primary);
 }
 
+.carousel-item img {
+    max-height: 800px;
+    object-fit: cover;
+    height: 100%;
+}
+
 @media (max-width: 767.98px) {
     #header-carousel .carousel-item {
         position: relative;
